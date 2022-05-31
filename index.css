@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'nose';
+    src: url(/Fonts/Prompt-Bold.ttf);
+}
+
+body {
+    font-family: 'nose';
+    background-color: white;
+}
+
+nav {
+    width: 30%;
+}
+
+.list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #90DADB;
+    
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;    
+}
